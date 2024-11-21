@@ -13,7 +13,7 @@ provider "aws" {
 
 variable "bucket_id" {
   type = string
-  default = "digger-s3backend-quickstart-aws"
+  default = "simplifi-terraform-state"
 }
 
 variable "dynamo_lock_table_id" {
